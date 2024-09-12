@@ -57,9 +57,30 @@ Run the following command
 `ifconfig ens33 netmusk 255.255.255.0`
 
 You can set the subnet musk of ens33 to 255.255.255.0
+
 After operation, the subnet mask change is observable
 
 ![img](./assets/5.5/mask.png)
+
+#### 4.Disable the NIC
+Run the following command
+
+`ifconfig ens33 down`
+
+It can be observed that the NIC has been disabled
+
+![img](./assets/5.5/down.png)
+
+#### 5.Test network connectivity
+Run the command
+
+`ping 127.0.0.1`
+
+The result is as follows
+
+![img](./assets/5.5/ping.png)
+
+This indicates that the local network loop is normal
 
 
 ### Use of the Compress Backup command
