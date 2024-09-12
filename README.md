@@ -18,7 +18,7 @@ group 6
 ### Use of system administration and setting commands
 1.
 ### Use of network-related commands
-#### 1.Displays information about the current network
+#### 1. Displays information about the current network
 Run the following command
 
 `ifconfig`
@@ -33,7 +33,7 @@ If the prompt as shown in the figure appears, you can run the command shown in t
 
 ![img](./assets/5.5/install.png)
 
-#### 2.Set the IP address
+#### 2. Set the IP address
 Run the following command
 
 `ifconfig ens33 192.168.1.10`
@@ -51,7 +51,7 @@ After operation, the IP change is observable
 
 ![img](./assets/5.5/ip.png)
 
-#### 3.Set the subnet mask
+#### 3. Set the subnet mask
 Run the following command
 
 `ifconfig ens33 netmusk 255.255.255.0`
@@ -62,7 +62,7 @@ After operation, the subnet mask change is observable
 
 ![img](./assets/5.5/mask.png)
 
-#### 4.Disable the NIC
+#### 4. Disable the NIC
 Run the following command
 
 `ifconfig ens33 down`
@@ -71,7 +71,7 @@ It can be observed that the NIC ens33 has been disabled
 
 ![img](./assets/5.5/down.png)
 
-#### 5.Test network connectivity
+#### 5. Test network connectivity
 Run the command
 
 `ping 127.0.0.1`
@@ -82,7 +82,7 @@ The result is as follows
 
 This indicates that the local network loop is normal
 
-#### 6.Enable the NIC
+#### 6. Enable the NIC
 Run the command
 
 `ifconfig ens33 up`
@@ -91,7 +91,7 @@ It can be observed that the NIC ens33 is enabled
 
 ![img](./assets/5.5/up.png)
 
-#### 7.Displays the kernel routing table
+#### 7. Displays the kernel routing table
 Run the following command
 
 `netstat -r`
@@ -101,7 +101,7 @@ The result is shown in the figure
 
 ![img](./assets/5.5/-r.png)
 
-#### 8.Displays the TCP connection status
+#### 8. Displays the TCP connection status
 Run the following command
 
 `netstat -t`
@@ -111,7 +111,7 @@ The result is shown in the figure
 
 ![img](./assets/5.5/-t.png)
 
-#### 9.Displays the UDP connection status
+#### 9. Displays the UDP connection status
 Run the following command
 
 `netstat -u`
