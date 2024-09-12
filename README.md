@@ -39,6 +39,7 @@ Run the following command
 `ifconfig ens33 192.168.1.10`
 
 You can set the IP address of ens33 to 192.168.1.10
+
 If the following prompts appear
 
 ![img](./assets/5.5/error.png)
