@@ -67,7 +67,7 @@ Run the following command
 
 `ifconfig ens33 down`
 
-It can be observed that the NIC has been disabled
+It can be observed that the NIC ens33 has been disabled
 
 ![img](./assets/5.5/down.png)
 
@@ -81,6 +81,45 @@ The result is as follows
 ![img](./assets/5.5/ping.png)
 
 This indicates that the local network loop is normal
+
+#### 6.Enable the NIC
+Run the command
+
+`ifconfig ens33 up`
+
+It can be observed that the NIC ens33 is enabled
+
+![img](./assets/5.5/up.png)
+
+#### 7.Displays the kernel routing table
+Run the following command
+
+`netstat -r`
+
+The kernel routing table is displayed
+The result is shown in the figure
+
+![img](./assets/5.5/-r.png)
+
+#### 8.Displays the TCP connection status
+Run the following command
+
+`netstat -t`
+
+The TCP connection status is displayed
+The result is shown in the figure
+
+![img](./assets/5.5/-t.png)
+
+#### 9.Displays the UDP connection status
+Run the following command
+
+`netstat -u`
+
+The UDP connection status is displayed
+The result is shown in the figure
+
+![img](./assets/5.5/-u.png)
 
 
 ### Use of the Compress Backup command
