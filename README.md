@@ -44,7 +44,7 @@ If the following prompts appear
 
 ![img](./assets/5.5/error.png)
 
-you can add sudo before the command to elevate the privilege, that is, run
+you can add `sudo` before the command to elevate the privilege, that is, run
 
 `sudo ifconfig enc33 192.168.1.10`
 
