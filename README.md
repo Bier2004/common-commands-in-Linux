@@ -52,6 +52,14 @@ After operation, the IP change is observable
 ![img](./assets/5.5/ip.png)
 
 #### 3.Set the subnet mask
+Run the following command
+
+`ifconfig ens33 netmusk 255.255.255.0`
+
+You can set the subnet musk of ens33 to 255.255.255.0
+After operation, the subnet mask change is observable
+
+![img](./assets/5.5/mask.png)
 
 
 ### Use of the Compress Backup command
