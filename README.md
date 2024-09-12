@@ -33,12 +33,12 @@ If the prompt as shown in the figure appears, you can run the command shown in t
 
 ![img](./assets/5.5/install.png)
 
-### 2.Set the IP address
+#### 2.Set the IP address
 Run the following command
 
-`ifconfig enc33 192.168.1.10`
+`ifconfig ens33 192.168.1.10`
 
-You can set the IP address of ENC33 to 192.168.1.10
+You can set the IP address of ens33 to 192.168.1.10
 If the following prompts appear
 
 ![img](./assets/5.5/error.png)
@@ -50,6 +50,9 @@ you can add sudo before the command to elevate the privilege, that is, run
 After operation, the IP change is observable
 
 ![img](./assets/5.5/ip.png)
+
+#### 3.Set the subnet mask
+
 
 ### Use of the Compress Backup command
 1.
