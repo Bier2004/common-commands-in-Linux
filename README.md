@@ -1,22 +1,31 @@
 # Experiment 1st: common commands in Linux
 group 6
 ## Purpose of the experiment
-1.Be familiar with the use of VirtualBox virtual machines.
-2.Be familiar with the Ubuntu operating system。
-3.Master the commonly used Linux commands.
++ Be familiar with the use of VirtualBox virtual machines.
+
++ Be familiar with the Ubuntu operating system。
+
++ Master the commonly used Linux commands.
 ## Experimental equipment
-1.Hardware:PC machine
-2.SOftware:VietualBox virtual machine and Ubuntu operating system
++ Hardware:PC machine
+
++ Software:VietualBox virtual machine and Ubuntu operating system
 ## Experiment pre-study requirements
-1.Read Section 1.3 about the installation and use of Linux.
-2 Read Section 1.5 Linux Common Operation Commands.
++ Read Section 1.3 about the installation and use of Linux.
+
++ Read Section 1.5 Linux Common Operation Commands.
 ## Experimental content
-1. The use of virtual machine-based Linux operating system.
-2 The use of commands related to files and directories.
-3 Use of disk management and maintenance commands.
-4 The use of system management and setting commands.
-5 The use of network-related commands.
-6 The use of compressed backup commands.
++ The use of virtual machine-based Linux operating system.
+
++ The use of commands related to files and directories.
+
++ Use of disk management and maintenance commands.
+
++ The use of system management and setting commands.
+   
++ The use of network-related commands.
+
++ The use of compressed backup commands.
 ## Experimental Procedure
 + ### Use of the Linux operating system based on virtual machines
 1.
@@ -107,6 +116,7 @@ Run the following command
 `netstat -r`
 
 The kernel routing table is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-r.png)
@@ -117,6 +127,7 @@ Run the following command
 `netstat -t`
 
 The TCP connection status is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-t.png)
@@ -127,6 +138,7 @@ Run the following command
 `netstat -u`
 
 The UDP connection status is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-u.png)
