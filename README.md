@@ -1,4 +1,4 @@
-# Experiment 1st: common-commands-in-Linux
+# Experiment 1st: common commands in Linux
 group 6
 ## Purpose of the experiment
 1.
