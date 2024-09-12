@@ -9,15 +9,15 @@ group 6
 ## Experimental content
 1.
 ## Experimental Procedure
-### Use of the Linux operating system based on virtual machines
++ ### Use of the Linux operating system based on virtual machines
 1.
-### Use of commands related to files and directories
++ ### Use of commands related to files and directories
 1.
-### Use of commands related to Disk Management and maintenance
++ ### Use of commands related to Disk Management and maintenance
 1.
-### Use of system administration and setting commands
++ ### Use of system administration and setting commands
 1.
-### Use of network-related commands
++ ### Use of network-related commands
 #### 1. Displays information about the current network
 Run the following command
 
