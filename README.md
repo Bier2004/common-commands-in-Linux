@@ -64,7 +64,7 @@ If the following prompts appear
 
 you can add `sudo` before the command to elevate the privilege, that is, run
 
-`sudo ifconfig enc33 192.168.1.10`
+`sudo ifconfig ens33 192.168.1.10`
 
 After operation, the IP change is observable
 
