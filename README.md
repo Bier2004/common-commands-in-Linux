@@ -148,4 +148,62 @@ The result is shown in the figure
 1.
 
 ## Questions
-1.
+
+**1**  
+
+### Use the `ls` command to view the information under `/root` and redirect the result to save it into the `test.txt` file.
+
+Run the following command:
+
+`sudo ls /root/ `    
+
+> View all files and subdirectory information under the /root directory.
+
+`sudo ls /root > text.txt`
+
+> Write the list of files in the /root directory to the test.txt file.
+
+![屏幕截图 2024-09-12 174854](https://github.com/user-attachments/assets/e024507f-eaba-4d62-b714-0c85a97a1636)
+
+**2**
+###  Use disk management and maintenance commands to mount the USB drive to the virtual machine, and copy the `test.txt` file generated in question 1 to the USB drive.
+
+Run the following command:
+
+`sudo cp /tmp/test.txt /mnt/usb/`
+
+> Copy the file test.txt from the /tmp directory to the USB drive.
+
+`ls /mnt/usb`
+
+> Check if the file has been successfully copied to the USB drive.
+
+![屏幕截图 2024-09-12 182726](https://github.com/user-attachments/assets/292a3a10-c8c9-4ea0-9091-b40c4fb08c3e)
+**3**
+### Use `ifconfig` to change the IP address of `eth0` to `10.3.0.159` and modify the subnet mask to `255.0.0.0`.
+
+Run the following command:
+
+`sudo ifconfig enp0s3 10.3.0.159`
+
+> change the IP address
+
+`sudo ifconfig enp0s3 netmask 255.0.0.0`
+
+> change the subnet mask
+
+`ifconfig enp0s3`
+
+> Verify the modification
+
+
+![屏幕截图 2024-09-12 214530](https://github.com/user-attachments/assets/dc252c62-24cd-492d-b29c-42d3fcc19070)
+
+**4**
+### What is the difference between compression and archiving?
+
+> 
+
+**_Compression:_** _This refers to reducing the size of a file using specific algorithms. Common tools include gzip and bzip2. The compressed file is often a single file._
+
+**_Archiving:_** _This involves combining multiple files or directories into a single file. A commonly used tool is tar. After archiving, the file size may not change, but it makes transmission and storage more convenient._
