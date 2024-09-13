@@ -1,13 +1,31 @@
 # Experiment 1st: common commands in Linux
 group 6
 ## Purpose of the experiment
-1.
++ Be familiar with the use of VirtualBox virtual machines.
+
++ Be familiar with the Ubuntu operating system。
+
++ Master the commonly used Linux commands.
 ## Experimental equipment
-1.
++ Hardware:PC machine
+
++ Software:VietualBox virtual machine and Ubuntu operating system
 ## Experiment pre-study requirements
-1.
++ Read Section 1.3 about the installation and use of Linux.
+
++ Read Section 1.5 Linux Common Operation Commands.
 ## Experimental content
-1.
++ The use of virtual machine-based Linux operating system.
+
++ The use of commands related to files and directories.
+
++ Use of disk management and maintenance commands.
+
++ The use of system management and setting commands.
+   
++ The use of network-related commands.
+
++ The use of compressed backup commands.
 ## Experimental Procedure
 + ### Use of the Linux operating system based on virtual machines
 1.
@@ -46,7 +64,7 @@ If the following prompts appear
 
 you can add `sudo` before the command to elevate the privilege, that is, run
 
-`sudo ifconfig enc33 192.168.1.10`
+`sudo ifconfig ens33 192.168.1.10`
 
 After operation, the IP change is observable
 
@@ -98,6 +116,7 @@ Run the following command
 `netstat -r`
 
 The kernel routing table is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-r.png)
@@ -108,6 +127,7 @@ Run the following command
 `netstat -t`
 
 The TCP connection status is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-t.png)
@@ -118,6 +138,7 @@ Run the following command
 `netstat -u`
 
 The UDP connection status is displayed
+
 The result is shown in the figure
 
 ![img](./assets/5.5/-u.png)
