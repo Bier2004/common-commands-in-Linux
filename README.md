@@ -89,31 +89,31 @@ group 6
 #### Steps for using CD-ROM under Linux
 ##### Confirm the device file corresponding to the optical drive
 '11 /dev/cdrom'
-![img]()
+![img](assets/5.3/1029fea9030b50198489c4842650172.png)
 ##### Mount CD-ROM
 'mount-t iso9660 /dev/cdrom testdir'
-![img]()
+![img](assets/5.3/40010b1f7838d434b994363a1a9064e.png)
 ##### Query the directory hanging behind
 '11/media/cdrom'
-![img]()
+![img](assets/5.3/627beee1a4b8d22ae764181d66ad267.png)
 ##### umount testdir
 'umount /dev/cdrom'
-![img]()
+![img](assets/5.3/77c9f3b77d9a2259e776acefe13f06b.png)
 #### The use of USB devices under Linux
 ##### Mount the USB flash drive and look at the disk recognized by the system.
 'cat /proc/partitions'
-![img](assets/5.3/屏幕截图 2024-09-14 231347.png)
+![img](assets/5.3/9588d603266cfe84d2d301b6ee2977d.png)
 ##### Create a mount point
 'mkdir /mnt/usb'
-![img]()
+![img](assets/5.3/a014c6f4f47a2e2fe3823a77139370a.png)
 ##### Mount the USB flash drive
 'mount -t vfat -o codepage =936,iocharset=gb2312 /dev/sdb1 /mnt/usb'
-![img]()
+![img](assets/5.3/baf85baafac18e3439a29097d12208b.png)
 ##### Uninstall the USB flash drive
 'umount /mnt/usb'
-![img]()
+
 + ### Use of system administration and setting commands
-![img]()
+
 
 #### 1.View all processes in the system
 
