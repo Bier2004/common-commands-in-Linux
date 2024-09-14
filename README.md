@@ -86,9 +86,34 @@ group 6
 ![img](assets/5.2/1726326917854.jpg)
 
 + ### Use of commands related to Disk Management and maintenance
-1.
+#### Steps for using CD-ROM under Linux
+##### Confirm the device file corresponding to the optical drive
+'11 /dev/cdrom'
+![img]()
+##### Mount CD-ROM
+'mount-t iso9660 /dev/cdrom testdir'
+![img]()
+##### Query the directory hanging behind
+'11/media/cdrom'
+![img]()
+##### umount testdir
+'umount /dev/cdrom'
+![img]()
+#### The use of USB devices under Linux
+##### Mount the USB flash drive and look at the disk recognized by the system.
+'cat /proc/partitions'
+![img]()
+##### Create a mount point
+'mkdir /mnt/usb'
+![img]()
+##### Mount the USB flash drive
+'mount -t vfat -o codepage =936,iocharset=gb2312 /dev/sdb1 /mnt/usb'
+![img]()
+##### Uninstall the USB flash drive
+'umount /mnt/usb'
+![img]()
 + ### Use of system administration and setting commands
-
+![img]()
 
 #### 1.View all processes in the system
 
