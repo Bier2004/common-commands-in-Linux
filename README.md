@@ -84,7 +84,7 @@ Cat /etc/inittab |grepinitdefault
 
 
 
-![img]()
+![img](assets/5.4/e394b883e02c82b1f3cec23e9c6d21a.png)
 
 + ### Use of network-related commands
 #### 1. Displays information about the current network
