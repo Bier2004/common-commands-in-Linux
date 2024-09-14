@@ -82,6 +82,14 @@ Cat /etc/inittab |grepinitdefault
 + ### Use of system administration and setting commands
 
 
+#### 1.View all processes in the system
+   'ps -ef'
+#### 2.Find the process ID number of the ssh service daemon
+   'ps -ef | grep sshd'
+#### 3.If there is a problem with the ssh service daemon process, the process is forcibly killed
+   'kill - 9'
+#### 4.System shutdown
+   'shutdown'
 
 
 ![img](assets/5.4/e394b883e02c82b1f3cec23e9c6d21a.png)
