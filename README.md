@@ -102,7 +102,7 @@ group 6
 #### The use of USB devices under Linux
 ##### Mount the USB flash drive and look at the disk recognized by the system.
 'cat /proc/partitions'
-![img]()
+![img](assets/5.3/屏幕截图 2024-09-14 231347.png)
 ##### Create a mount point
 'mkdir /mnt/usb'
 ![img]()
