@@ -30,7 +30,53 @@ group 6
 + ### Use of the Linux operating system based on virtual machines
 1.
 + ### Use of commands related to files and directories
-1.
+#### 1 .Query the /bin directory and see what commonly used command files are in the directory:
+
+11/bin
+
+![img]()
+
+#### 2 .Enter the /tmp directory and create a new directory myshare:
+
+cd / tmp
+mkdir   Myshare
+Is - ld myshare/
+![img]()
+
+#### 3 .Use the pwd command to view the current directory:
+
+pwd
+
+![img]()
+#### 4 Create a new testfile file:
+
+Touch test file
+Is-Id myshare/
+![img]()
+
+#### 5 Set the permission mode of the file:
+
+Chmod  755 testfile
+Is -I testfile
+![img]()
+
+#### 6 Back up the file to the /tmp/myshare directory and change it to testfile.bak:
+
+Cp testfile  myshare/testfile. bak
+Is -I myshare/
+![img]()
+
+#### 7 Create a symbolic connection for the file in the /root directory:
+
+In -s/ tmp/testfile    /root/testfile. ln
+Is -I  /root/testfile. In
+![img]()
+
+#### 8 Search for the lines containing the initdefault string in the inittab file:
+
+Cat /etc/inittab |grepinitdefault
+![img]()
+
 + ### Use of commands related to Disk Management and maintenance
 1.
 + ### Use of system administration and setting commands
