@@ -92,7 +92,7 @@ Cat /etc/inittab |grepinitdefault
 
    `ps -ef | grep sshd`
 
-![img](assets/5.4/e394b883e02c82b1f3cec23e9c6d21a.png)
+![img](assets/5.4/039dbaadfdad87c21086447547be1ef.png)
    
 #### 3.If there is a problem with the ssh service daemon process, the process is forcibly killed
 
