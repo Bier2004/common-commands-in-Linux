@@ -32,7 +32,7 @@ group 6
 + ### Use of commands related to files and directories
 #### 1 .Query the /bin directory and see what commonly used command files are in the directory:
 
-11/bin
+`ll/bin`
 
 ![img]()
 
