@@ -80,7 +80,12 @@ Cat /etc/inittab |grepinitdefault
 + ### Use of commands related to Disk Management and maintenance
 1.
 + ### Use of system administration and setting commands
-1.
+
+
+
+
+![img]()
+
 + ### Use of network-related commands
 #### 1. Displays information about the current network
 Run the following command
