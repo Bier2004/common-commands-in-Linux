@@ -34,7 +34,7 @@ group 6
 
 `ll/bin`
 
-![img]()
+![img](assets/5.2/1726326584729.jpg)
 
 #### 2 .Enter the /tmp directory and create a new directory myshare:
 
@@ -44,46 +44,46 @@ group 6
 
 `Is - ld myshare/`
 
-![img]()
+![img](assets/5.2/1726326739656.jpg)
 
 #### 3 .Use the pwd command to view the current directory:
 
 `pwd`
 
-![img]()
+![img](assets/5.2/1726326766095.jpg)
 #### 4 Create a new testfile file:
 
 `Touch test file`
 
 `Is-Id myshare/`
 
-![img]()
+![img](assets/5.2/1726326766095.jpg)
 
 #### 5 Set the permission mode of the file:
 
 `Chmod  755 testfile`
 
 `Is -I testfile`
-![img]()
+![img](assets/5.2/1726326798536.jpg)
 
 #### 6 Back up the file to the /tmp/myshare directory and change it to testfile.bak:
 
 `Cp testfile  myshare/testfile. bak`
 
 `Is -I myshare/`
-![img]()
+![img](assets/5.2/1726326798536.jpg)
 
 #### 7 Create a symbolic connection for the file in the /root directory:
 
 `In -s/ tmp/testfile    /root/testfile. ln`
 
 `Is -I  /root/testfile. In`
-![img]()
+![img](assets/5.2/1726326881091.jpg)
 
 #### 8 Search for the lines containing the initdefault string in the inittab file:
 
 `Cat /etc/inittab |grepinitdefault`
-![img]()
+![img](assets/5.2/1726326917854.jpg)
 
 + ### Use of commands related to Disk Management and maintenance
 1.
