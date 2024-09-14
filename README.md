@@ -38,43 +38,45 @@ group 6
 
 #### 2 .Enter the /tmp directory and create a new directory myshare:
 
-cd / tmp
-mkdir   Myshare
-Is - ld myshare/
+`cd / tmp`
+`mkdir   Myshare`
+`Is - ld myshare/`
+
 ![img]()
 
 #### 3 .Use the pwd command to view the current directory:
 
-pwd
+`pwd`
 
 ![img]()
 #### 4 Create a new testfile file:
 
-Touch test file
-Is-Id myshare/
+`Touch test file`
+`Is-Id myshare/`
+
 ![img]()
 
 #### 5 Set the permission mode of the file:
 
-Chmod  755 testfile
-Is -I testfile
+`Chmod  755 testfile`
+`Is -I testfile`
 ![img]()
 
 #### 6 Back up the file to the /tmp/myshare directory and change it to testfile.bak:
 
-Cp testfile  myshare/testfile. bak
-Is -I myshare/
+`Cp testfile  myshare/testfile. bak`
+`Is -I myshare/`
 ![img]()
 
 #### 7 Create a symbolic connection for the file in the /root directory:
 
-In -s/ tmp/testfile    /root/testfile. ln
-Is -I  /root/testfile. In
+`In -s/ tmp/testfile    /root/testfile. ln`
+`Is -I  /root/testfile. In`
 ![img]()
 
 #### 8 Search for the lines containing the initdefault string in the inittab file:
 
-Cat /etc/inittab |grepinitdefault
+`Cat /etc/inittab |grepinitdefault`
 ![img]()
 
 + ### Use of commands related to Disk Management and maintenance
