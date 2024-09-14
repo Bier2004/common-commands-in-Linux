@@ -83,7 +83,10 @@ Cat /etc/inittab |grepinitdefault
 
 
 #### 1.View all processes in the system
+
    'ps -ef'
+![img](assets/5.4/e394b883e02c82b1f3cec23e9c6d21a.png)
+   
 #### 2.Find the process ID number of the ssh service daemon
    'ps -ef | grep sshd'
 #### 3.If there is a problem with the ssh service daemon process, the process is forcibly killed
@@ -91,8 +94,6 @@ Cat /etc/inittab |grepinitdefault
 #### 4.System shutdown
    'shutdown'
 
-
-![img](assets/5.4/e394b883e02c82b1f3cec23e9c6d21a.png)
 
 + ### Use of network-related commands
 #### 1. Displays information about the current network
