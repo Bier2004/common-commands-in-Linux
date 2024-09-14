@@ -39,7 +39,9 @@ group 6
 #### 2 .Enter the /tmp directory and create a new directory myshare:
 
 `cd / tmp`
+
 `mkdir   Myshare`
+
 `Is - ld myshare/`
 
 ![img]()
@@ -52,6 +54,7 @@ group 6
 #### 4 Create a new testfile file:
 
 `Touch test file`
+
 `Is-Id myshare/`
 
 ![img]()
@@ -59,18 +62,21 @@ group 6
 #### 5 Set the permission mode of the file:
 
 `Chmod  755 testfile`
+
 `Is -I testfile`
 ![img]()
 
 #### 6 Back up the file to the /tmp/myshare directory and change it to testfile.bak:
 
 `Cp testfile  myshare/testfile. bak`
+
 `Is -I myshare/`
 ![img]()
 
 #### 7 Create a symbolic connection for the file in the /root directory:
 
 `In -s/ tmp/testfile    /root/testfile. ln`
+
 `Is -I  /root/testfile. In`
 ![img]()
 
