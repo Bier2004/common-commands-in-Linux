@@ -145,7 +145,14 @@ The result is shown in the figure
 
 
 + ### Use of the Compress Backup command
-1.
+#### 1. Pack the/tmp directory into tmp.tar and place it in the/root directory.
+Run the following command:
+
+`tar cf /root/tmp.tar /tmp/*`
+
+The result is shown in the figure
+
+
 
 ## Questions
 
