@@ -9,7 +9,7 @@ group 6
 ## Experimental equipment
 + Hardware:PC machine
 
-+ Software:VietualBox virtual machine and Ubuntu operating system
++ Software:VietualBox virtual machine and Ubuntu operating system.
 ## Experiment pre-study requirements
 + Read Section 1.3 about the installation and use of Linux.
 
@@ -382,6 +382,6 @@ Run the following command:
 
 > 
 
-**_Compression:_** _This refers to reducing the size of a file using specific algorithms. Common tools include gzip and bzip2. The compressed file is often a single file._
+**_Compression:_** _This refers to reducing the size of a file using specific algorithms. Common tools include gzip and bzip2. The compressed file is often a single file._Compression can be lossless (the data is fully restored after decompression) or lossy (some data is lost after decompression, but the loss is usually negligible for the final use).
 
-**_Archiving:_** _This involves combining multiple files or directories into a single file. A commonly used tool is tar. After archiving, the file size may not change, but it makes transmission and storage more convenient._
+**_Archiving:_** _This involves combining multiple files or directories into a single file. A commonly used tool is tar. After archiving, the file size may not change, but it makes transmission and storage more convenient.That is, archived files can be as large as the sum of the individual files they replace. Common archiving formats include .tar (Tape Archive).
