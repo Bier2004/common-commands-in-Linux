@@ -285,22 +285,29 @@ The result is shown in the figure
 
 + ### Use of the Compress Backup command
 #### ① Pack the/tmp directory into tmp.tar and place it in the/root directory.
-'tar cf /root/tmp.tar /tmp/*'
+`tar cf /root/tmp.tar /tmp/*`
+![img]()
 #### ② Compress and package the/tmp directory into tmp.tar.gz, and place it in the/root directory:
-'tar zcvf /root/tmp.tar.gz /tmp/*'
+`tar zcvf /root/tmp.tar.gz /tmp/*`
+![img]()
 #### ③ Compare tmp.tar and tmp.tar.gz size:
-'1s -1 /root/tmp.tar /root/tmp.tar.gz'
+`1s -1 /root/tmp.tar /root/tmp.tar.gz`
+![img]()
 #### ④ Do not unpack, only view the contents of the compressed file tmp.tar.gz:
-'tar ztf /root/tmp.tar.gz'
+`tar ztf /root/tmp.tar.gz`
+![img]()
 #### ⑤ Extract the contents of tmp.tar.gz to the/tmp/myshare directory:
-'tar zxvf /root/tmp.tar.gz -C /tmp/myshare/'
+`tar zxvf /root/tmp.tar.gz -C /tmp/myshare/`
+![img]()
 #### ⑥ Compress each file in the/tmp directory into. gz format:
-'gzip *'
+`gzip *`
+![img]()
 #### ⑦ List the information of each. gz compressed file in detail, without decompression:
-'gzip-1 *'
+`gzip-1 *`
+![img]()
 #### ⑧ Extract each compressed. gz file and provide detailed information:
-'gzip-dv *'
-
+`gzip-dv *`
+![img]()
 
 
 ## Questions
