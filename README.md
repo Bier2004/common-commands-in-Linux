@@ -386,7 +386,15 @@ Run the following command:
 
 **_Archiving:_** _This involves combining multiple files or directories into a single file. A commonly used tool is tar. After archiving, the file size may not change, but it makes transmission and storage more convenient.That is, archived files can be as large as the sum of the individual files they replace. Common archiving formats include .tar (Tape Archive).
 
+_
 
+_
+
+_
+
+_
+
+_
 
 # The members of the group and their responsible parts
 ### rzr181-郑润泽
