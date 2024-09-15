@@ -397,7 +397,7 @@ _
 _
 
 # The members of the group and their responsible parts
-### rzr181-郑润泽
+### zrz181-郑润泽
 + Purpose of the experiment
 + Experimental equipment
 + Experiment pre-study requirements
