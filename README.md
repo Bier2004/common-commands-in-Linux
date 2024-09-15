@@ -28,7 +28,22 @@ group 6
 + The use of compressed backup commands.
 ## Experimental Procedure
 + ### Use of the Linux operating system based on virtual machines
-1.
+#### 1.Start VirtualBox application, start Windows, select "Start - program -VistualBox", pop up the interface as shown in the picture, and click "Start" to run the Linux operating system.
+
+![img](.jpg)
+
+#### 2.After starting the system, you need to enter the user name and password, as shown in the figure. Enter the password here.
+
+![img](.jpg)
+
+#### 3.Start the terminal, after successfully entering the system, select "Application - Terminal" as shown in the figure.
+
+![img](.jpg)
+
+#### 4.Execute the Linux command in the terminal, after the terminal runs, you can enter the Linux command here, and press the enter key to execute, as shown in the figure.
+
+![img](.jpg)
+
 + ### Use of commands related to files and directories
 #### 1 .Query the /bin directory and see what commonly used command files are in the directory:
 
