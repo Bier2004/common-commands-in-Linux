@@ -385,3 +385,35 @@ Run the following command:
 **_Compression:_** _This refers to reducing the size of a file using specific algorithms. Common tools include gzip and bzip2. The compressed file is often a single file._Compression can be lossless (the data is fully restored after decompression) or lossy (some data is lost after decompression, but the loss is usually negligible for the final use).
 
 **_Archiving:_** _This involves combining multiple files or directories into a single file. A commonly used tool is tar. After archiving, the file size may not change, but it makes transmission and storage more convenient.That is, archived files can be as large as the sum of the individual files they replace. Common archiving formats include .tar (Tape Archive).
+
+
+
+# The members of the group and their responsible parts
+### rzr181-郑润泽
++ Purpose of the experiment
++ Experimental equipment
++ Experiment pre-study requirements
++ Experimental content
+### wangwen128-付恒义
++ Use of the Linux operating system based on virtual machines
+### HKING10086-李航
++ Use of commands related to files and directories
+### bingren0106-胡家宝
++ Use of commands related to Disk Management and maintenance
+### Gaoxingheiheihei-褚孟凡
++ Use of system administration and setting commands
+### Bier2004-尚千斌
++ Establishment and specification of the repository and catalogs
++ Specification and modification of the format of document
++ Review of document content
++ Add and modify comments
++ Use of network-related commands
+### lakeforever-刘淼
++ Use of the Compress Backup command
+### Tongziiii-张振达
++ Questions
+### Lorinda0719-段奕铭
++ Modification of document format and content
++ Recording of experimental videos
+### 王众
++ Recording of experimental videos
