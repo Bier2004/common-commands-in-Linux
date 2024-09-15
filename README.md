@@ -3,11 +3,11 @@ group 6
 ## Purpose of the experiment
 + Be familiar with the use of VirtualBox virtual machines.
 
-+ Be familiar with the Ubuntu operating system。
++ Be familiar with the Ubuntu operating system.
 
 + Master the commonly used Linux commands.
 ## Experimental equipment
-+ Hardware:PC machine
++ Hardware:PC machine.
 
 + Software:VietualBox virtual machine and Ubuntu operating system.
 ## Experiment pre-study requirements
