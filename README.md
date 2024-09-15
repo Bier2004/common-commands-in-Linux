@@ -287,43 +287,42 @@ The result is shown in the figure
 #### ① Pack the/tmp directory into tmp.tar and place it in the/root directory.
 `tar cf /root/tmp.tar /tmp/*`
 
-![img]()
+![img](assets/5.6/bc283bf1263a2900d773ba6c8f5df5a.png)
 
 #### ② Compress and package the/tmp directory into tmp.tar.gz, and place it in the/root directory:
 `tar zcvf /root/tmp.tar.gz /tmp/*`
 
-![img]()
+![img](assets/5.6/056bddb912becce2bd44a2876160551.png)
 
 #### ③ Compare tmp.tar and tmp.tar.gz size:
 `1s -1 /root/tmp.tar /root/tmp.tar.gz`
 
-![img]()
+![img](assets/5.6/7bf040d3ad675c6f99a516fa05ca283.png)
 
 #### ④ Do not unpack, only view the contents of the compressed file tmp.tar.gz:
 `tar ztf /root/tmp.tar.gz`
 
-![img]()
+![img](assets/5.6/0d335814469034f3f56e5b4fefac8b8.png)
 
 #### ⑤ Extract the contents of tmp.tar.gz to the/tmp/myshare directory:
 `tar zxvf /root/tmp.tar.gz -C /tmp/myshare/`
 
-![img]()
+![img](assets/5.6/a66fbfb76bcf9dfb839e7cb256555b6.png)
 
 #### ⑥ Compress each file in the/tmp directory into. gz format:
 `gzip *`
 
-![img]()
+![img](assets/5.6/9c79e17df1062f399a14b6ca22420e1.png)
 
 #### ⑦ List the information of each. gz compressed file in detail, without decompression:
 `gzip-1 *`
 
-
-![img]()
+![img](assets/5.6/a09baf8cd82c22d4d5861dc74ff83b8.png)
 #### ⑧ Extract each compressed. gz file and provide detailed information:
 
 `gzip-dv *`
 
-![img]()
+![img](assets/5.6/dc2d50106bcdb5e6f54d232b47f0358.png)
 
 
 ## Questions
