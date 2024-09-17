@@ -3,11 +3,11 @@ group 6
 ## Purpose of the experiment
 + Be familiar with the use of VirtualBox virtual machines.
 
-+ Be familiar with the Ubuntu operating system.
++ Be familiar with the Ubuntu operating system。
 
 + Master the commonly used Linux commands.
 ## Experimental equipment
-+ Hardware:PC machine.
++ Hardware:PC machine
 
 + Software:VietualBox virtual machine and Ubuntu operating system.
 ## Experiment pre-study requirements
@@ -173,7 +173,8 @@ group 6
 
 ![img](assets/5.4/039dbaadfdad87c21086447547be1ef.png)
 
-
+#### 5.Refer to the video
+![shipin](assets/5.4/shipin.mp4)
 + ### Use of network-related commands
 #### 1. Displays information about the current network
 Run the following command
@@ -282,6 +283,10 @@ The result is shown in the figure
 
 ![img](./assets/5.5/-u.png)
 
+#### 10.Refer to the video
+
+![shipin](./assets/5.5/shipin.mp4)
+
 
 + ### Use of the Compress Backup command
 #### ① Pack the/tmp directory into tmp.tar and place it in the/root directory.
@@ -322,8 +327,11 @@ The result is shown in the figure
 
 `gzip-dv *`
 
-![img](assets/5.6/dc2d50106bcdb5e6f54d232b47f0358.png)
+![img](assets/5.6/sihpin.mp4)
 
+#### 10.Refer to the video
+
+![shipin](./assets/5.6/shipin.mp4)
 
 ## Questions
 
