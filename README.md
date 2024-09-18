@@ -44,6 +44,14 @@ group 6
 
 ![img](assets/5.1/4.jpg)
 
+_
+
+
+**_A related video demonstration can be viewed at assets/5.1/shipin.mp4_**
+
+_
+
+
 + ### Use of commands related to files and directories
 #### 1 .Query the /bin directory and see what commonly used command files are in the directory:
 
@@ -105,6 +113,14 @@ group 6
 
 ![img](assets/5.2/1726326917854.jpg)
 
+_
+
+
+**_A related video demonstration can be viewed at assets/5.2/shipin.mp4_**
+
+_
+
+
 + ### Use of commands related to Disk Management and maintenance
 #### Steps for using CD-ROM under Linux
 ##### Confirm the device file corresponding to the optical drive
@@ -146,6 +162,14 @@ group 6
 ##### Uninstall the USB flash drive
 `umount /mnt/usb`
 
+_
+
+
+**_A related video demonstration can be viewed at assets/5.3/shipin.mp4_**
+
+_
+
+
 + ### Use of system administration and setting commands
 
 
@@ -173,8 +197,17 @@ group 6
 
 ![img](assets/5.4/039dbaadfdad87c21086447547be1ef.png)
 
-#### 5.Refer to the video
+
+_
+
+
+**_A related video demonstration can be viewed at assets/5.4/shipin.mp4_**
+
+_
+
+
 ![shipin](assets/5.4/shipin.mp4)
+
 + ### Use of network-related commands
 #### 1. Displays information about the current network
 Run the following command
@@ -283,7 +316,13 @@ The result is shown in the figure
 
 ![img](./assets/5.5/-u.png)
 
-#### 10.Refer to the video
+_
+
+
+**_A related video demonstration can be viewed at assets/5.5/shipin.mp4_**
+
+_
+
 
 ![shipin](./assets/5.5/shipin.mp4)
 
@@ -333,7 +372,12 @@ The result is shown in the figure
 
 ![img](assets/5.6/8.png)
 
-#### 10.Refer to the video
+_
+
+
+**_A related video demonstration can be viewed at assets/5.6/shipin.mp4_**
+
+_
 
 ![shipin](./assets/5.6/shipin.mp4)
 
@@ -437,3 +481,13 @@ _
 + Recording of experimental videos
 ### z4459-王众
 + Recording of experimental videos
+
+_
+
+_
+
+_
+
++ ### 原仓库链接请点[这里](https://github.com/Bier2004/common-commands-in-Linux)
++ ### Please click [here](https://github.com/Bier2004/common-commands-in-Linux) to the original repository
++ [https://github.com/Bier2004/common-commands-in-Linux](https://github.com/Bier2004/common-commands-in-Linux)
