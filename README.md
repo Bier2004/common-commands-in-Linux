@@ -47,7 +47,7 @@ group 6
 _
 
 
-**_A related video demonstration can be viewed at [assets/5.1/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.4/shipin.mp4)_**
+**_A related video demonstration can be viewed at [assets/5.1/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.1/shipin.mp4)_**
 
 _
 
@@ -116,7 +116,7 @@ _
 _
 
 
-**_A related video demonstration can be viewed at assets/5.2/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.2/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.2/shipin.mp4)_**
 
 _
 
@@ -165,7 +165,7 @@ _
 _
 
 
-**_A related video demonstration can be viewed at assets/5.3/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.3/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.3/shipin.mp4)_**
 
 _
 
@@ -201,12 +201,11 @@ _
 _
 
 
-**_A related video demonstration can be viewed at assets/5.4/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.4/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.4/shipin.mp4)_**
 
 _
 
 
-![shipin](assets/5.4/shipin.mp4)
 
 + ### Use of network-related commands
 #### 1. Displays information about the current network
@@ -319,12 +318,11 @@ The result is shown in the figure
 _
 
 
-**_A related video demonstration can be viewed at assets/5.5/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.5/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.5/shipin.mp4)_**
 
 _
 
 
-![shipin](./assets/5.5/shipin.mp4)
 
 
 + ### Use of the Compress Backup command
@@ -375,11 +373,10 @@ _
 _
 
 
-**_A related video demonstration can be viewed at assets/5.6/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.6/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.6/shipin.mp4)_**
 
 _
 
-![shipin](./assets/5.6/shipin.mp4)
 
 ## Questions
 
