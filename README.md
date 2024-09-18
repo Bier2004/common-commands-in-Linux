@@ -299,7 +299,7 @@ The result is shown in the figure
 
 ![img](assets/5.6/2.png)
 ![img](assets/5.6/2.1.png)
-![img](assets/5.6/2.3.png)
+![img](assets/5.6/2.2.png)
 
 #### ③ Compare tmp.tar and tmp.tar.gz size:
 `1s -1 /root/tmp.tar /root/tmp.tar.gz`
@@ -326,12 +326,12 @@ The result is shown in the figure
 #### ⑦ List the information of each. gz compressed file in detail, without decompression:
 `gzip-1 *`
 
-![img](assets/7.png)
+![img](assets/5.6/7.png)
 #### ⑧ Extract each compressed. gz file and provide detailed information:
 
 `gzip-dv *`
 
-![img](assets/8.png)
+![img](assets/5.6/8.png)
 
 #### 10.Refer to the video
 
