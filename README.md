@@ -47,7 +47,7 @@ group 6
 _
 
 
-**_A related video demonstration can be viewed at assets/5.1/shipin.mp4_**
+**_A related video demonstration can be viewed at [assets/5.1/shipin.mp4](https://github.com/Bier2004/common-commands-in-Linux/blob/main/assets/5.4/shipin.mp4)_**
 
 _
 
