@@ -292,42 +292,46 @@ The result is shown in the figure
 #### ① Pack the/tmp directory into tmp.tar and place it in the/root directory.
 `tar cf /root/tmp.tar /tmp/*`
 
-![img](assets/5.6/bc283bf1263a2900d773ba6c8f5df5a.png)
+![img](assets/5.6/1.png)
 
 #### ② Compress and package the/tmp directory into tmp.tar.gz, and place it in the/root directory:
 `tar zcvf /root/tmp.tar.gz /tmp/*`
 
-![img](assets/5.6/056bddb912becce2bd44a2876160551.png)
+![img](assets/5.6/2.png)
+![img](assets/5.6/2.1.png)
+![img](assets/5.6/2.3.png)
 
 #### ③ Compare tmp.tar and tmp.tar.gz size:
 `1s -1 /root/tmp.tar /root/tmp.tar.gz`
 
-![img](assets/5.6/7bf040d3ad675c6f99a516fa05ca283.png)
+![img](assets/5.6/3.png)
 
 #### ④ Do not unpack, only view the contents of the compressed file tmp.tar.gz:
 `tar ztf /root/tmp.tar.gz`
 
-![img](assets/5.6/0d335814469034f3f56e5b4fefac8b8.png)
+![img](assets/5.6/4.png)
+![img](assets/5.6/4.1.png)
+![img](assets/5.6/4.2.png)
 
 #### ⑤ Extract the contents of tmp.tar.gz to the/tmp/myshare directory:
 `tar zxvf /root/tmp.tar.gz -C /tmp/myshare/`
 
-![img](assets/5.6/a66fbfb76bcf9dfb839e7cb256555b6.png)
+![img](assets/5.6/5.png)
 
 #### ⑥ Compress each file in the/tmp directory into. gz format:
 `gzip *`
 
-![img](assets/5.6/9c79e17df1062f399a14b6ca22420e1.png)
+![img](assets/5.6/6.png)
 
 #### ⑦ List the information of each. gz compressed file in detail, without decompression:
 `gzip-1 *`
 
-![img](assets/5.6/a09baf8cd82c22d4d5861dc74ff83b8.png)
+![img](assets/7.png)
 #### ⑧ Extract each compressed. gz file and provide detailed information:
 
 `gzip-dv *`
 
-![img](assets/5.6/sihpin.mp4)
+![img](assets/8.png)
 
 #### 10.Refer to the video
 
